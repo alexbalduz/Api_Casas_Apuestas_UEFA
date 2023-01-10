@@ -46,12 +46,12 @@ class Prediccion():
 
 
     def convertirGolesChampions(self):
-        df1 = pd.DataFrame([[key, self.golesLocal[key]] for key in self.golesLocal.keys()], columns = ['EquipoLocal', 'golesLocal'])
-        df1.to_csv(f'preparacion_datos/golesLocal.csv', index=False)
-        df2 = pd.DataFrame([[key, self.golesVisitante[key]] for key in self.golesVisitante.keys()], columns = ['EquipoVisitante', 'golesVisitante'])
-        df2.to_csv(f'preparacion_datos/golesVistante.csv', index=False)
-        df3 = pd.concat([df1, df2], axis=1)
-        df3.to_csv(f'preparacion_datos/golesChampions.csv', index=False)
+        df_golesLocal = pd.DataFrame([[key, self.golesLocal[key]] for key in self.golesLocal.keys()], columns = ['EquipoLocal', 'golesLocal'])
+        df_golesLocal.to_csv(f'preparacion_datos/golesLocal.csv', index=False)
+        df_golesVisitante = pd.DataFrame([[key, self.golesVisitante[key]] for key in self.golesVisitante.keys()], columns = ['EquipoVisitante', 'golesVisitante'])
+        df_golesVisitante.to_csv(f'preparacion_datos/golesVistante.csv', index=False)
+        df_total = pd.concat([df_golesLocal, df_golesVisitante], axis=1)
+        df_total.to_csv(f'preparacion_datos/golesChampions.csv', index=False)
 
 
 if __name__ == '__main__':
