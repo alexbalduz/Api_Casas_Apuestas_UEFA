@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Roma,1,2,Real Madrid
+Lokomotiv Moscú,1,1,Anderlecht
+Real Madrid,4,0,Lokomotiv Moscú
+Anderlecht,0,0,Roma
+Roma,2,1,Lokomotiv Moscú
+Real Madrid,4,1,Anderlecht
+Lokomotiv Moscú,0,1,Roma
+Anderlecht,0,2,Real Madrid
+Real Madrid,1,1,Roma
+Anderlecht,1,5,Lokomotiv Moscú
+Roma,1,1,Anderlecht
+Lokomotiv Moscú,2,0,Real Madrid
+Liverpool,1,1,Boavista
+Dinamo Kiev,2,2,Dortmund
+Boavista,3,1,Dinamo Kiev
+Dortmund,0,0,Liverpool
+Liverpool,1,0,Dinamo Kiev
+Boavista,2,1,Dortmund
+Dinamo Kiev,1,2,Liverpool
+Dortmund,2,1,Boavista
+Boavista,1,1,Liverpool
+Dortmund,1,0,Dinamo Kiev
+Liverpool,2,0,Dortmund
+Dinamo Kiev,1,0,Boavista
+Schalke04,Panathinaikos,0,2
+Mallorca,Arsenal,1,0
+Panathinaikos,Mallorca,2,0
+Arsenal,Schalke04,3,2
+Schalke04,Mallorca,0,1
+Panathinaikos,1,0,Arsenal
+Mallorca,0,4,Schalke04
+Arsenal,2,1,Panathinaikos
+Panathinaikos,2,0,Schalke04
+Arsenal,3,1,Mallorca
+Schalke04,3,1,Arsenal
+Mallorca,1,0,Panathinaikos
+Fenerbahçe,0,3,Barcelona
+OlympiqueLyon,0,1,BayerLeverkusen
+BayerLeverkusen,2,1,Barcelona
+Fenerbahçe,0,1,OlympiqueLyon
+BayerLeverkusen,2,1,Fenerbahçe
+Barcelona,2,0,OlympiqueLyon
+Barcelona,2,1,BayerLeverkusen
+OlympiqueLyon,3,1,Fenerbahçe
+Fenerbahçe,1,2,BayerLeverkusen
+OlympiqueLyon,2,3,Barcelona
+BayerLeverkusen,2,4,OlympiqueLyon
+Barcelona,1,0,Fenerbahçe
+Boavista FC,1,0,FC Nantes
+Bayern,1,1,Man. United
+FC Nantes,0,1,Bayern
+Man. United,3,0,Boavista FC
+Boavista FC,0,0,Bayern
+FC Nantes,1,1,Man. United
+Bayern,1,0,Boavista FC
+Man. United,5,1,FC Nantes
+FC Nantes,1,1,Boavista FC
+Man. United,0,0,Bayern
+Boavista FC,0,3,Man. United
+Bayern,2,1,FC Nantes
+Liverpool,1,3,Barcelona
+Galatasaray,1,1,Roma
+Barcelona,2,2,Galatasaray
+Roma,0,0,Liverpool
+Liverpool,0,0,Galatasaray
+Barcelona,1,1,Roma
+Galatasaray,1,1,Liverpool
+Roma,3,0,Barcelona
+Barcelona,0,0,Liverpool
+Roma,1,1,Galatasaray
+Liverpool,2,0,Roma
+Galatasaray,0,1,Barcelona
+Sparta Praga,2,3,Real Madrid
+Panathinaikos,0,0,Oporto
+Real Madrid,3,0,Panathinaikos
+Oporto,0,1,Sparta Praga
+Sparta Praga,0,2,Panathinaikos
+Real Madrid,1,0,Oporto
+Panathinaikos,2,1,Sparta Praga
+Oporto,1,2,Real Madrid
+Real Madrid,3,0,Sparta Praga
+Porto,2,1,Panathinaikos
+Sparta Praga,2,0,Oporto
+Panathinaikos,2,2,Real Madrid
+Juventus,4,0,Bayer Leverkusen
+Deportivo de La Coruña,2,0,Arsenal
+Bayer Leverkusen,3,0,Deportivo de La Coruña
+Arsenal,3,1,Juventus
+Juventus,0,0,Deportivo de La Coruña
+Bayer Leverkusen,1,1,Arsenal
+Deportivo de La Coruña,2,0,Juventus
+Arsenal,4,1,Bayer Leverkusen
+Bayer Leverkusen,3,1,Juventus
+Arsenal,0,2,Deportivo de La Coruña
+Juventus,1,0,Arsenal
+Deportivo de La Coruña,1,3,Bayer Leverkusen

@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Bayern,4,0,Atletico
+Bayern,3,1,red bull salzburgo
+Bayern,2,0,fc lokomotiv moscu
+Atletico,4,0,Bayern
+Atletico,3,1,red bull salzburgo
+Atletico,2,0,fc lokomotiv moscu
+red bull salzburgo,4,0,Bayern
+red bull salzburgo,3,1,Atletico
+red bull salzburgo,2,0,fc lokomotiv moscu
+fc lokomotiv moscu,4,0,Bayern
+fc lokomotiv moscu,3,1,Atletico
+fc lokomotiv moscu,2,0,red bull salzburgo
+Real Madrid,2,3,Shakhtar Donetsk
+Real Madrid,3,2,Milan
+Real Madrid,2,0,borussia monchengladbach
+Shakhtar Donetsk,2,3,Real Madrid
+Shakhtar Donetsk,3,2,Milan
+Shakhtar Donetsk,2,0,borussia monchengladbach
+Milan,2,3,Real Madrid
+Milan,3,2,Shakhtar Donetsk
+Milan,2,0,borussia monchengladbach
+borussia monchengladbach,2,3,Real Madrid
+borussia monchengladbach,3,2,Shakhtar Donetsk
+borussia monchengladbach,2,0,Milan
+futbol club oporto,0,0,Man. City
+futbol club oporto,2,0,olympiakos de el pireo
+futbol club oporto,3,0,olympique de marsella
+Man. City,0,0,futbol club oporto
+Man. City,2,0,olympiakos de el pireo
+Man. City,3,0,olympique de marsella
+olympiakos de el pireo,0,0,futbol club oporto
+olympiakos de el pireo,2,0,Man. City
+olympiakos de el pireo,3,0,olympique de marsella
+olympique de marsella,0,0,futbol club oporto
+olympique de marsella,2,0,Man. City
+olympique de marsella,3,0,olympiakos de el pireo
+Liverpool,1,0,Ajax
+Liverpool,0,2,Atalanta
+Liverpool,2,0,fc midtjylland
+Ajax,1,0,Liverpool
+Ajax,0,2,Atalanta
+Ajax,2,0,fc midtjylland
+Atalanta,1,0,Liverpool
+Atalanta,0,2,Ajax
+Atalanta,2,0,fc midtjylland
+fc midtjylland,1,0,Liverpool
+fc midtjylland,0,2,Ajax
+fc midtjylland,2,0,Atalanta
+Sevilla,0,4,Chelsea
+Sevilla,3,2,fc krasnodar
+Sevilla,1,0,stade rennais fc
+Chelsea,0,4,Sevilla
+Chelsea,3,2,fc krasnodar
+Chelsea,1,0,stade rennais fc
+fc krasnodar,0,4,Sevilla
+fc krasnodar,3,2,Chelsea
+fc krasnodar,1,0,stade rennais fc
+stade rennais fc,0,4,Sevilla
+stade rennais fc,3,2,Chelsea
+stade rennais fc,1,0,fc krasnodar
+Zenit,1,2,Dortmund
+Zenit,1,1,società sportiva lazio
+Zenit,1,2,club brujas
+Dortmund,1,2,Zenit
+Dortmund,1,1,società sportiva lazio
+Dortmund,1,2,club brujas
+società sportiva lazio,1,2,Zenit
+società sportiva lazio,1,1,Dortmund
+società sportiva lazio,1,2,club brujas
+club brujas,1,2,Zenit
+club brujas,1,1,Dortmund
+club brujas,1,2,società sportiva lazio
+Juventus,0,2,Barcelona
+Juventus,3,0,fc dinamo de kiev
+Juventus,2,1,ferencvarosi tc
+Barcelona,0,2,Juventus
+Barcelona,3,0,fc dinamo de kiev
+Barcelona,2,1,ferencvarosi tc
+fc dinamo de kiev,0,2,Juventus
+fc dinamo de kiev,3,0,Barcelona
+fc dinamo de kiev,2,1,ferencvarosi tc
+ferencvarosi tc,0,2,Juventus
+ferencvarosi tc,3,0,Barcelona
+ferencvarosi tc,2,1,fc dinamo de kiev
+Paris,1,2,Man. United
+Paris,1,0,Leipzig
+Paris,5,1,estambul başakşehir fk
+Man. United,1,2,Paris
+Man. United,1,0,Leipzig
+Man. United,5,1,estambul başakşehir fk
+Leipzig,1,2,Paris
+Leipzig,1,0,Man. United
+Leipzig,5,1,estambul başakşehir fk
+estambul başakşehir fk,1,2,Paris
+estambul başakşehir fk,1,0,Man. United
+estambul başakşehir fk,5,1,Leipzig

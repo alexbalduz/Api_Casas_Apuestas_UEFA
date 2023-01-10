@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Dinamo Zagreb ,0,2,Oporto
+París Saint-Germain ,4,1,Dinamo de Kiev
+Dinamo de Kiev ,2,0,Dinamo Zagreb
+Oporto ,1,0,París Saint-Germain
+Oporto ,3,2,Dinamo de Kiev
+Dinamo Zagreb ,0,2,París Saint-Germain
+Dinamo de Kiev ,0,0,Oporto
+París Saint-Germain ,4,0,Dinamo Zagreb
+Oporto ,3,0,Dinamo Zagreb
+Dinamo de Kiev ,0,2,París Saint-Germain
+Dinamo Zagreb ,1,1,Dinamo de Kiev
+París Saint-Germain ,2,1,Oporto
+Montpellier Hérault ,1,2,Arsenal
+Olympiacos ,1,2,Schalke 04
+Schalke 04 ,2,2,Montpellier Hérault
+Arsenal ,3,1,Olympiacos
+Arsenal ,0,2,Schalke 04
+Montpellier Hérault ,1,2,Olympiacos
+Schalke 04 ,2,2,Arsenal
+Olympiacos ,3,1,Montpellier Hérault
+Arsenal ,2,0,Montpellier Hérault
+Schalke 04 ,1,0,Olympiacos
+Montpellier Hérault ,1,1,Schalke 04
+Olympiacos ,2,1,Arsenal 
+Málaga ,3,0,Zenit San Petersburgo
+Milan,0,0,Anderlecht
+Anderlecht ,0,3,Málaga
+Zenit,2,3,Milan
+Zenit,1,0,Anderlecht
+Málaga ,1,0,Milan
+Anderlecht ,1,0,Zenit San Petersburgo
+Milan,1,1,Málaga
+Zenit,2,2,Málaga
+Anderlecht ,1,3,Milan
+Málaga ,2,2,Anderlecht
+Milan,0,1,Zenit San Petersburgo
+Dortmund,1,0,Ajax Ámsterdam
+Real Madrid,3,2,Manchester City
+Man. City,1,1,Borussia Dortmund
+Ajax,1,4,Real Madrid
+Ajax,3,1,Manchester City
+Dortmund,2,1,Real Madrid
+Man. City,2,2,Ajax Ámsterdam
+Real Madrid,2,2,Borussia Dortmund
+Ajax,1,4,Borussia Dortmund
+Man. City,1,1,Real Madrid
+Dortmund,1,0,Manchester City
+Real Madrid,4,1,Ajax
+Shakhtar Donetsk,2,0,Nordsjælland
+Chelsea,2,2,Juventus
+Juventus,1,1,Shakhtar Donetsk
+Nordsjælland ,0,4,Chelsea
+Nordsjælland ,1,1,Juventus
+Shakhtar Donetsk,2,1,Chelsea
+Juventus,4,0,Nordsjælland
+Chelsea,3,2,Shakhtar Donetsk
+Nordsjælland ,2,5,Shakhtar Donetsk
+Juventus,3,0,Chelsea
+Shakhtar Donetsk,0,1,Juventus
+Chelsea,6,1,Nordsjælland 
+LOSC,1,3,BATE Borisov
+Bayern,2,1,Valencia
+Valencia ,2,0,Lille
+BATE Borisov ,3,1,Bayern de Múnich
+BATE Borisov ,0,3,Valencia
+LOSC,0,1,Bayern de Múnich
+Valencia ,4,2,BATE Borisov
+Bayern,6,1,Lille
+BATE Borisov ,0,2,Lille
+Valencia ,1,1,Bayern de Múnich
+LOSC,0,1,Valencia
+Bayern,4,1,BATE Borisov 
+Barcelona,3,2,Spartak Moscú
+Celtic ,0,0,Benfica
+Spartak Moscú ,2,3,Celtic
+Benfica,0,2,Barcelona
+Barcelona,2,1,Celtic
+Spartak Moscú ,2,1,Benfica
+Benfica,2,0,Spartak Moscú
+Celtic ,2,1,Barcelona
+Spartak Moscú ,0,3,Barcelona
+Benfica,2,1,Celtic
+Barcelona,0,0,Benfica
+Celtic ,2,1,Spartak Moscú 
+Man. United,1,0,Galatasaray
+Sporting Braga ,0,2,CFR Cluj
+CFR Cluj ,1,2,Manchester United
+Galatasaray ,0,2,Sporting Braga
+Galatasaray ,1,1,CFR Cluj
+Man. United,3,2,Sporting Braga
+CFR Cluj ,1,3,Galatasaray
+Sporting Braga ,1,3,Manchester United
+Galatasaray ,1,0,Manchester United
+CFR Cluj ,3,1,Sporting Braga
+Sporting Braga ,1,2,Galatasaray
+Man. United,0,1,CFR Cluj

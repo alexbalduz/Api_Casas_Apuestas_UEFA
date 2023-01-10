@@ -1,0 +1,145 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Auxerre ,0,0,PSV Eindhoven
+Arsenal ,2,0,Borussia Dortmund
+PSV Eindhoven ,0,4,Arsenal
+Dortmund,2,1,Auxerre
+Auxerre ,0,1,Arsenal
+PSV Eindhoven ,1,3,Borussia Dortmund
+Arsenal ,1,2,Auxerre
+Dortmund,1,1,PSV Eindhoven
+PSV Eindhoven ,3,0,Auxerre
+Dortmund,2,1,Arsenal
+Auxerre ,1,0,Borussia Dortmund
+Arsenal ,0,0,PSV Eindhoven 
+Valencia ,2,0,Liverpool
+Basel ,2,0,Spartak Moscú
+Liverpool,1,1,Basel
+Spartak Moscú ,0,3,Valencia
+Valencia ,6,2,Basel
+Liverpool,5,0,Spartak Moscú
+Basel ,2,2,Valencia
+Spartak Moscú ,1,3,Liverpool
+Liverpool,0,1,Valencia
+Spartak Moscú ,0,2,Basel
+Valencia ,3,0,Spartak Moscú
+Basel ,3,3,Liverpool
+Racing Genk ,0,0,AEK Atenas
+Roma ,0,3,Real Madrid
+AEK Atenas ,0,0,Roma
+Real Madrid,6,0,Racing Genk
+Racing Genk ,0,1,Roma
+AEK Atenas ,3,3,Real Madrid
+Roma ,0,0,Racing Genk
+Real Madrid,2,2,AEK Atenas
+AEK Atenas ,1,1,Racing Genk
+Real Madrid,0,1,Roma
+Racing Genk ,1,1,Real Madrid
+Roma ,1,1,AEK Atenas
+Rosenborg ,2,2,Inter de Milán
+Ajax,2,1,Olympique de Lyon
+Internazionale,1,0,Ajax Ámsterdam
+Olympique de Lyon ,5,0,Rosenborg
+Rosenborg ,0,0,Ajax Ámsterdam
+Internazionale,1,2,Olympique de Lyon
+Ajax,1,1,Rosenborg
+Olympique de Lyon ,3,3,Internazionale
+Internazionale,3,0,Rosenborg
+Olympique de Lyon ,0,2,Ajax Ámsterdam
+Rosenborg ,1,1,Olympique de Lyon
+Ajax,1,2,Internazionale
+Feyenoord de Róterdam ,1,1,Juventus
+Dinamo de Kiev ,2,0,Newcastle United
+Juventus,5,0,Dinamo de Kiev
+Newcastle United ,0,1,Feyenoord de Róterdam
+Feyenoord de Róterdam ,0,0,Dinamo de Kiev
+Juventus,2,0,Newcastle United
+Dinamo de Kiev ,2,0,Feyenoord de Róterdam
+Newcastle United ,1,0,Juventus
+Juventus,2,0,Feyenoord de Róterdam
+Newcastle United ,2,1,Dinamo de Kiev
+Feyenoord de Róterdam ,2,3,Newcastle United
+Dinamo de Kiev ,1,2,Juventus
+Man. United,5,2,Maccabi Haifa
+Olympiacos ,6,2,Bayer Leverkusen
+Maccabi Haifa ,3,0,Olympiacos
+Bayer Leverkusen ,1,2,Manchester United
+Man. United,4,0,Olympiacos
+Maccabi Haifa ,0,2,Bayer Leverkusen
+Olympiacos ,2,3,Manchester United
+Bayer Leverkusen ,2,1,Maccabi Haifa
+Maccabi Haifa ,3,0,Manchester United
+Bayer Leverkusen ,2,0,Olympiacos
+Man. United,2,0,Bayer Leverkusen
+Olympiacos ,3,3,Maccabi Haifa
+Bayern,2,3,Dep. de La Coruña
+Milan,2,1,Lens
+Dep. de La Coruña ,0,4,Milan
+Lens ,1,1,Bayern Múnich
+Bayern,1,2,Milan
+Dep. de La Coruña ,3,1,Lens
+Milan,2,1,Bayern Múnich
+Lens ,3,1,Dep. de La Coruña
+Dep. de La Coruña ,2,1,Bayern Múnich
+Lens ,2,1,Milan
+Bayern,3,3,Lens
+Milan,1,2,Dep. de La Coruña
+Lokomotiv Moscú ,0,2,Galatasaray
+Barcelona,3,2,Brujas
+Galatasaray ,0,2,Barcelona
+Brujas ,0,0,Lokomotiv Moscú
+Lokomotiv Moscú ,1,3,Barcelona
+Galatasaray ,0,0,Brujas
+Barcelona,1,0,Lokomotiv Moscú
+Brujas ,3,1,Galatasaray
+Galatasaray ,1,2,Lokomotiv Moscú
+Brujas ,0,1,Barcelona
+Lokomotiv Moscú ,2,0,Brujas
+Barcelona,3,1,Galatasaray
+Bayer Leverkusen ,1,2,Barcelona
+Newcastle United ,1,4,Internazionale
+Barcelona,3,1,Newcastle United
+Internazionale,3,2,Bayer Leverkusen
+Bayer Leverkusen ,1,3,Newcastle United
+Barcelona,3,0,Internazionale
+Newcastle United ,3,1,Bayer Leverkusen
+Internazionale,0,0,Barcelona
+Barcelona,2,0,Bayer Leverkusen
+Internazionale,2,2,Newcastle United
+Bayer Leverkusen ,0,2,Internazionale
+Newcastle United ,0,2,Barcelona
+Roma ,1,3,Arsenal
+Valencia ,1,1,Ajax Ámsterdam
+Arsenal ,0,0,Valencia
+Ajax,2,1,Roma
+Roma ,0,1,Valencia
+Arsenal ,1,1,Ajax Ámsterdam
+Valencia ,0,3,Roma
+Ajax,0,0,Arsenal
+Arsenal ,1,1,Roma
+Ajax,1,1,Valencia
+Roma ,1,1,Ajax Ámsterdam
+Valencia ,2,1,Arsenal
+Milan,1,0,Real Madrid
+Lokomotiv Moscú ,1,2,Borussia Dortmund
+Real Madrid,2,2,Lokomotiv Moscú
+Dortmund,0,1,Milan
+Milan,1,0,Lokomotiv Moscú
+Real Madrid,2,1,Borussia Dortmund
+Lokomotiv Moscú ,0,1,Milan
+Dortmund,1,1,Real Madrid
+Real Madrid,3,1,Milan
+Dortmund,3,0,Lokomotiv Moscú
+Milan,0,1,Borussia Dortmund
+Lokomotiv Moscú ,0,1,Real Madrid
+Basel ,1,3,Manchester United
+Deportivo de La Coruña ,2,2,Juventus
+Man. United,2,0,Deportivo de La Coruña
+Juventus,4,0,Basel
+Basel ,1,0,Deportivo de La Coruña
+Man. United,2,1,Juventus
+Deportivo de La Coruña ,1,0,Basel
+Juventus,0,3,Manchester United
+Man. United,1,1,Basel
+Juventus,3,2,Deportivo de La Coruña
+Basel ,2,1,Juventus
+Deportivo de La Coruña ,2,0,Manchester United

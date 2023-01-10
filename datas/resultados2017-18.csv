@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Benfica,0,1,Man. United
+Benfica,0,2,fussballclub basilea
+Benfica,1,2,pfc cska moscu
+Man. United,0,1,Benfica
+Man. United,0,2,fussballclub basilea
+Man. United,1,2,pfc cska moscu
+fussballclub basilea,0,1,Benfica
+fussballclub basilea,0,2,Man. United
+fussballclub basilea,1,2,pfc cska moscu
+pfc cska moscu,0,1,Benfica
+pfc cska moscu,0,2,Man. United
+pfc cska moscu,1,2,fussballclub basilea
+Bayern,3,1,Paris
+Bayern,3,0,royal sporting club anderlecht
+Bayern,3,0,celtic football club
+Paris,3,1,Bayern
+Paris,3,0,royal sporting club anderlecht
+Paris,3,0,celtic football club
+royal sporting club anderlecht,3,1,Bayern
+royal sporting club anderlecht,3,0,Paris
+royal sporting club anderlecht,3,0,celtic football club
+celtic football club,3,1,Bayern
+celtic football club,3,0,Paris
+celtic football club,3,0,royal sporting club anderlecht
+Chelsea,1,1,Atletico
+Chelsea,3,3,associazione sportiva roma
+Chelsea,6,0,fk qarabağ agdam
+Atletico,1,1,Chelsea
+Atletico,3,3,associazione sportiva roma
+Atletico,6,0,fk qarabağ agdam
+associazione sportiva roma,1,1,Chelsea
+associazione sportiva roma,3,3,Atletico
+associazione sportiva roma,6,0,fk qarabağ agdam
+fk qarabağ agdam,1,1,Chelsea
+fk qarabağ agdam,3,3,Atletico
+fk qarabağ agdam,6,0,associazione sportiva roma
+Juventus,0,0,Barcelona
+Juventus,2,0,olympiacos de el pireo
+Juventus,2,1,sporting de lisboa
+Barcelona,0,0,Juventus
+Barcelona,2,0,olympiacos de el pireo
+Barcelona,2,1,sporting de lisboa
+olympiacos de el pireo,0,0,Juventus
+olympiacos de el pireo,2,0,Barcelona
+olympiacos de el pireo,2,1,sporting de lisboa
+sporting de lisboa,0,0,Juventus
+sporting de lisboa,2,0,Barcelona
+sporting de lisboa,2,1,olympiacos de el pireo
+fc spartak de moscu,5,1,Sevilla
+fc spartak de moscu,1,1,Liverpool
+fc spartak de moscu,1,1,nk maribor
+Sevilla,5,1,fc spartak de moscu
+Sevilla,1,1,Liverpool
+Sevilla,1,1,nk maribor
+Liverpool,5,1,fc spartak de moscu
+Liverpool,1,1,Sevilla
+Liverpool,1,1,nk maribor
+nk maribor,5,1,fc spartak de moscu
+nk maribor,1,1,Sevilla
+nk maribor,1,1,Liverpool
+Shakhtar Donetsk,2,1,Man. City
+Shakhtar Donetsk,2,1,società sportiva calcio napoli
+Shakhtar Donetsk,3,1,feyenoord rotterdam
+Man. City,2,1,Shakhtar Donetsk
+Man. City,2,1,società sportiva calcio napoli
+Man. City,3,1,feyenoord rotterdam
+società sportiva calcio napoli,2,1,Shakhtar Donetsk
+società sportiva calcio napoli,2,1,Man. City
+società sportiva calcio napoli,3,1,feyenoord rotterdam
+feyenoord rotterdam,2,1,Shakhtar Donetsk
+feyenoord rotterdam,2,1,Man. City
+feyenoord rotterdam,3,1,società sportiva calcio napoli
+association sportive de monaco football club,0,3,futbol club oporto
+association sportive de monaco football club,1,2,beşiktaş jimnastik kulubu
+association sportive de monaco football club,1,4,Leipzig
+futbol club oporto,0,3,association sportive de monaco football club
+futbol club oporto,1,2,beşiktaş jimnastik kulubu
+futbol club oporto,1,4,Leipzig
+beşiktaş jimnastik kulubu,0,3,association sportive de monaco football club
+beşiktaş jimnastik kulubu,1,2,futbol club oporto
+beşiktaş jimnastik kulubu,1,4,Leipzig
+Leipzig,0,3,association sportive de monaco football club
+Leipzig,1,2,futbol club oporto
+Leipzig,1,4,beşiktaş jimnastik kulubu
+Real Madrid,3,2,Dortmund
+Real Madrid,1,1,tottenham hotspur football club
+Real Madrid,3,0,apoel de nicosia
+Dortmund,3,2,Real Madrid
+Dortmund,1,1,tottenham hotspur football club
+Dortmund,3,0,apoel de nicosia
+tottenham hotspur football club,3,2,Real Madrid
+tottenham hotspur football club,1,1,Dortmund
+tottenham hotspur football club,3,0,apoel de nicosia
+apoel de nicosia,3,2,Real Madrid
+apoel de nicosia,1,1,Dortmund
+apoel de nicosia,3,0,tottenham hotspur football club

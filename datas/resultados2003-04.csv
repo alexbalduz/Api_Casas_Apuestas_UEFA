@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Olympique de Lyon,1,0,Anderlecht
+Bayern,2,1,Celtic
+Anderlecht,1,1,Bayern
+Celtic,2,0,Olympique de Lyon
+Olympique de Lyon,1,1,Bayern
+Anderlecht,1,0,Celtic
+Bayern,1,2,Olympique de Lyon
+Celtic,3,1,Anderlecht
+Anderlecht,1,0,Olympique de Lyon
+Celtic,0,0,Bayern
+Olympique de Lyon,3,2,Celtic
+Bayern,1,0,Anderlecht
+Dinamo Kiev,2,0,Lokomotiv Moscú
+Arsenal,0,3,Internazionale
+Lokomotiv Moscú,0,0,Arsenal
+Internazionale,2,1,Dinamo Kiev
+Dinamo Kiev,2,1,Arsenal
+Lokomotiv Moscú,3,0,Internazionale
+Arsenal,1,0,Dinamo Kiev
+Internazionale,1,1,Lokomotiv Moscú
+Lokomotiv Moscú,3,2,Dinamo Kiev
+Internazionale,1,5,Arsenal
+Dinamo Kiev,1,1,Internazionale
+Arsenal,2,0,Lokomotiv Moscú
+AEK Atenas,1,1,Deportivo de La Coruña
+PSV Eindhoven,1,2,Mónaco
+Deportivo de La Coruña,2,0,PSV Eindhoven
+Mónaco,4,0,AEK Atenas
+AEK Atenas,0,1,PSV Eindhoven
+Deportivo de La Coruña,1,0,Mónaco
+PSV Eindhoven,2,0,AEK Atenas
+Mónaco,8,3,Deportivo de La Coruña
+Deportivo de La Coruña,3,0,AEK Atenas
+Mónaco,1,1,PSV Eindhoven
+AEK Atenas,0,0,Mónaco
+PSV Eindhoven,3,2,Deportivo de La Coruña
+Juventus,2,1,Galatasaray
+Real Sociedad,1,0,Olympiacos
+Galatasaray,1,2,Real Sociedad
+Olympiacos,1,2,Juventus
+Juventus,4,2,Real Sociedad
+Galatasaray,1,0,Olympiacos
+Real Sociedad,0,0,Juventus
+Olympiacos,3,0,Galatasaray
+Galatasaray,2,0,Juventus
+Olympiacos,2,2,Real Sociedad
+Juventus,7,0,Olympiacos
+Real Sociedad,1,1,Galatasaray
+Rangers,2,1,VfB Stuttgart
+Man. United,5,0,Panathinaikos
+VfB Stuttgart,2,1,Man. United
+Panathinaikos,1,1,Rangers
+Rangers,0,1,Man. United
+VfB Stuttgart,2,0,Panathinaikos
+Man. United,3,0,Rangers
+Panathinaikos,1,3,VfB Stuttgart
+VfB Stuttgart,1,0,Rangers
+Panathinaikos,0,1,Man. United
+Rangers,1,3,Panathinaikos
+Man. United,2,0,VfB Stuttgart
+Real Madrid,4,2,Olympique de Marsella
+Partizan Belgrado,1,1,Porto
+Olympique de Marsella,3,0,Partizan Belgrado
+Porto,1,3,Real Madrid
+Real Madrid,1,0,Partizan Belgrado
+Olympique de Marsella,2,3,Porto
+Partizan Belgrado,0,0,Real Madrid
+Porto,1,0,Olympique de Marsella
+Olympique de Marsella,1,2,Real Madrid
+Porto,2,1,Partizan Belgrado
+Real Madrid,1,1,Porto
+Partizan Belgrado,1,1,Olympique de Marsella
+Sparta Praga,0,1,Chelsea
+Beşiktaş,0,2,Lazio
+Chelsea,0,2,Beşiktaş
+Lazio,2,2,Sparta Praga
+Sparta Praga,2,1,Beşiktaş
+Chelsea,2,1,Lazio
+Beşiktaş,1,0,Sparta Praga
+Lazio,0,4,Chelsea
+Chelsea,0,0,Sparta Praga
+Lazio,1,1,Beşiktaş
+Sparta Praga,1,0,Lazio
+Beşiktaş,0,2,Chelsea
+Milan,1,0,Ajax
+Brujas,1,1,Celta de Vigo
+Ajax,2,0,Brujas
+Celta de Vigo,0,0,Milan
+Milan,0,1,Brujas
+Ajax,1,0,Celta de Vigo
+Brujas,0,1,Milan
+Celta de Vigo,3,2,Ajax
+Ajax,0,1,Milan
+Celta de Vigo,1,1,Brujas
+Milan,1,2,Celta de Vigo
+Brujas,2,1,Ajax

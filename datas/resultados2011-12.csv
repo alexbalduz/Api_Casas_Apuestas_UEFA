@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Man. City,1,1,Napoli
+Villarreal,0,2,Bayern Múnich
+Bayern,2,0,Manchester City
+Napoli ,2,0,Villarreal
+Napoli ,1,1,Bayern Múnich
+Man. City,2,1,Villarreal
+Bayern,3,2,Napoli
+Villarreal,0,3,Manchester City
+Napoli ,2,1,Manchester City
+Bayern,3,1,Villarreal
+Man. City,2,0,Bayern Múnich
+Villarreal,0,2,Napoli 
+LOSC,2,2,CSKA Moscú
+Internazionale,0,1,Trabzonspor
+CSKA Moscú ,2,3,Internazionale
+Trabzonspor ,1,1,Lille
+CSKA Moscú ,3,0,Trabzonspor
+LOSC,0,1,Internazionale
+Trabzonspor ,0,0,CSKA Moscú
+Internazionale,2,1,Lille
+CSKA Moscú ,0,2,Lille
+Trabzonspor ,1,1,Internazionale
+LOSC,0,0,Trabzonspor
+Internazionale,1,2,CSKA Moscú 
+Basel ,2,1,Oțelul Galați
+Benfica,1,1,Manchester United
+Man. United,3,3,Basel
+Oțelul Galați ,0,1,Benfica
+Oțelul Galați ,0,2,Manchester United
+Basel ,0,2,Benfica
+Man. United,2,0,Oțelul Galați
+Benfica,1,1,Basel
+Oțelul Galați ,2,3,Basel
+Man. United,2,2,Benfica
+Basel ,2,1,Manchester United
+Benfica,1,0,Oțelul Galați 
+Dinamo Zagreb ,0,1,Real Madrid
+Ajax,0,0,Olympique de Lyon
+Olympique de Lyon ,2,0,Dinamo Zagreb
+Real Madrid,3,0,Ajax Ámsterdam
+Real Madrid,4,0,Olympique de Lyon
+Dinamo Zagreb ,0,2,Ajax Ámsterdam
+Olympique de Lyon ,0,2,Real Madrid
+Ajax,4,0,Dinamo Zagreb
+Real Madrid,6,2,Dinamo Zagreb
+Olympique de Lyon ,0,0,Ajax Ámsterdam
+Dinamo Zagreb ,1,7,Olympique de Lyon
+Ajax,0,3,Real Madrid  
+Chelsea,2,0,Bayer Leverkusen
+Genk ,0,0,Valencia
+Valencia ,1,1,Chelsea
+Bayer Leverkusen ,2,0,Genk
+Bayer Leverkusen ,2,1,Valencia
+Chelsea,5,0,Genk
+Valencia ,3,1,Bayer Leverkusen
+Genk ,1,1,Chelsea
+Bayer Leverkusen ,2,1,Chelsea
+Valencia ,7,0,Genk
+Chelsea,3,0,Valencia
+Genk ,1,1,Bayer Leverkusen 
+Olympiacos ,0,1,Olympique de Marsella
+Dortmund,1,1,Arsenal
+Arsenal ,2,1,Olympiacos
+Olympique de Marsella ,3,0,Borussia Dortmund
+Olympique de Marsella ,0,1,Arsenal
+Olympiacos ,3,1,Borussia Dortmund
+Arsenal ,0,0,Olympique de Marsella
+Dortmund,1,0,Olympiacos
+Olympique de Marsella ,0,1,Olympiacos
+Arsenal ,2,1,Borussia Dortmund
+Olympiacos ,3,1,Arsenal
+Porto,2,1,Shakhtar Donetsk
+APOEL Nicosia ,2,1,Zenit San Petersburgo
+Zenit,3,1,Porto
+Shakhtar Donetsk,1,1,APOEL Nicosia
+Shakhtar Donetsk,2,2,Zenit San Petersburgo
+Porto,1,1,APOEL Nicosia
+Zenit,1,0,Shakhtar Donetsk
+APOEL Nicosia ,2,1,Porto
+Zenit,0,0,APOEL Nicosia
+Shakhtar Donetsk,0,2,Porto
+Porto,0,0,Zenit San Petersburgo
+APOEL Nicosia ,0,2,Shakhtar Donetsk
+Barcelona,2,2,Milan
+Viktoria Plzeň ,1,1,BATE Borisov
+Milan,2,0,Viktoria Plzeň
+BATE Borisov ,0,5,Barcelona
+Milan,2,0,BATE Borisov
+Barcelona,2,0,Viktoria Plzeň
+BATE Borisov ,1,1,Milan
+Viktoria Plzeň ,0,4,Barcelona
+Milan,2,3,Barcelona
+BATE Borisov ,0,1,Viktoria Plzeň
+Barcelona,4,0,BATE Borisov
+Viktoria Plzeň ,2,2,Milan
+Dortmund,2,3,Olympique de Marsella 

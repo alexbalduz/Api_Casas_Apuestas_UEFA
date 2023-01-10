@@ -1,27 +1,27 @@
 import pandas as pd
 from normalizacion import NormalizacionNombres
 
-#Leemos el csv de equipos
-listaEquipos = pd.read_csv ('docs/equipo.csv')
-print(listaEquipos.head())
-
-#Vemos con qué tipo de datos trabajamos
-equipos=listaEquipos['Equipo']
-print(type(equipos))
-equipos=list(equipos)
-
 #Definimos todos los años como un array
 años=["2020-21","2019-20","2018-19","2017-18","2015-16","2014-15","2013-14","2012-13","2011-12","2010-11","2009-10","2008-09"
     ,"2007-08","2006-07","2005-06","2004-05","2003-04","2002-03","2001-02","2000-01"]
 Champions={}
 
+#Leemos el csv de equipos
+listaEquipos = pd.read_csv ('docs/equipo.csv')
+print(listaEquipos.head())
+
+#Vemos con qué tipo de datos trabajamos
+equipos = listaEquipos['Equipo']
+print(type(equipos))
+equipos=list(equipos)
+
 #Leemos los datos de la Champions
 for año in años:
-    Champions[f'{año}'] = pd.read_csv(f'Datos/Champions/resultados{año}.csv')
+    Champions[f'{año}'] = pd.read_csv(f'datas/Champions/resultados{año}.csv')
 
 #Diccionarios para guardar los goles de cada equipo
-golesLocal={}
-golesVisitante={}
+golesLocal = {}
+golesVisitante = {}
 
 #Inicializamos los diccionarios
 for equipo in equipos:
@@ -39,3 +39,4 @@ for año in años:
 
 print(golesLocal)
 print(golesVisitante)
+
