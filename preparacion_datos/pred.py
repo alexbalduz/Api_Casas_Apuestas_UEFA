@@ -44,54 +44,17 @@ class Prediccion():
 
         #print(self.golesLocal)
 
-    def golesLigasNacionales(self):
-        self.golesLigaLocal = {}
-        self.golesLigaVisitante = {}
-        #Recorremos todos los equipos
-        for equipo in self.equipos:
-            self.golesLigaLocal[equipo] = 0
-            self.golesLigaVisitante[equipo] = 0
-            self.pais = str(self.listaEquipos['Pais'][self.listaEquipos['Equipo'] == equipo].iloc[0])
-            if self.pais.lower() == 'paises bajos':
-                self.pais = 'Holanda'
-            self.pais = NormalizacionNombres(self.pais)
-            self.datos = pd.read_csv(f'datas/LigasNacionales/{self.pais}2021-22.csv')
-            if self.pais != 'moldavia':
-                for i in range(len(self.datos)):
-                    if str(self.datos.iloc[i]['Local']) == str(equipo):
-                        print(equipo)
-                        self.golesLigaLocal[equipo] += int(self.datos.iloc[i]['GolesLocal'])
-                    if str(self.datos.iloc[i]['Visitante']) == str(equipo):
-                        self.golesLigaVisitante[equipo] += int(self.datos.iloc[i]['GolesVisitante'])
-            else:
-                self.golesLigaLocal[equipo] += int(self.datos.iloc[0]['goles A favor'])/2
-                self.golesLigaVisitante[equipo] += int(self.datos.iloc[0]['goles A favor'])/2
 
-
-        #print(golesLigaVisitante)
-        #print(golesLigaLocal)
     def convertirGolesChampions(self):
-        df1= pd.DataFrame([[key, self.golesLocal[key]] for key in self.golesLocal.keys()], columns = ['EquipoEnLocal', 'golesLocal'])
-        df1.to_csv('golesLocal.csv', index=False)
-        df2 = pd.DataFrame([[key, self.golesVisitante[key]] for key in self.golesVisitante.keys()], columns = ['EquipoEnVisitante', 'golesVisitante'])
-        df2.to_csv('golesVistante.csv', index=False)
+        df1 = pd.DataFrame([[key, self.golesLocal[key]] for key in self.golesLocal.keys()], columns = ['EquipoLocal', 'golesLocal'])
+        df1.to_csv(f'preparacion_datos/golesLocal.csv', index=False)
+        df2 = pd.DataFrame([[key, self.golesVisitante[key]] for key in self.golesVisitante.keys()], columns = ['EquipoVisitante', 'golesVisitante'])
+        df2.to_csv(f'preparacion_datos/golesVistante.csv', index=False)
         df3 = pd.concat([df1, df2], axis=1)
-        df3.to_csv('golesChampions.csv', index=False)
-        print(df3)
-
-
-    def convertirGolesLiga(self):
-        df3 = pd.DataFrame([[key, self.golesLigaVisitante[key]] for key in self.golesLigaVisitante.keys()], columns=['Equipo', 'goles'])
-        df3.to_csv('golesLigaVisitante.csv', index=False)
-        df4 = pd.DataFrame([[key, self.golesLigaLocal[key]] for key in self.golesLigaLocal.keys()], columns=['Equipo', 'goles'])
-        df4.to_csv('golesLigaLocal.csv', index=False)
-        print(df3)
-        print(df4)
-
-
+        df3.to_csv(f'preparacion_datos/golesChampions.csv', index=False)
 
 
 if __name__ == '__main__':
-    pred = Prediccion()
-    pred.Champions()
-    pred.convertirGolesChampions()
+    prediccion = Prediccion()
+    prediccion.contarGolesChampions()
+    prediccion.convertirGolesChampions()
