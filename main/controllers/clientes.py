@@ -39,9 +39,9 @@ class Clientes(Resource):
     
     def get(self):
         clientes = db.session.query(ClienteModel)
-        cliente_filters = ClienteFilters(clientes)
-        for key, value in request.get_json().items():
-            clientes = cliente_filters.filter(key, value)
+        # cliente_filters = ClienteFilters(clientes)
+        # for key, value in request.get_json().items():
+        #     clientes = cliente_filters.filter(key, value)
         return cliente_schema.dump(clientes.all(), many=True)
 
     def post(self):

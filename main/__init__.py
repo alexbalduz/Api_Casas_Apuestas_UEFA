@@ -21,7 +21,7 @@ def create_app():
         os.mknod(f'{PATH}{DB_NAME}')
 
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:////{PATH}{DB_NAME}'
+    app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{PATH}{DB_NAME}'
     db.init_app(app)
 
     import main.controllers as controllers
@@ -43,7 +43,7 @@ def create_app():
     api.init_app(app)
 
     from main.mail import functions
-    app.register_blueprint(mail.functions.mail)
+    app.register_blueprint(functions.mail)
 
     app.config['MAIL_HOSTNAME'] = os.getenv('MAIL_HOSTNAME')
     app.config['MAIL_SERVER'] = os.getenv('MAIL_SERVER')

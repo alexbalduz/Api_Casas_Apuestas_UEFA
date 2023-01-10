@@ -60,5 +60,15 @@ def load_cuotas():
 
 
 if __name__ == '__main__':
+    print("Empezando")
     db.create_all()
+    print("Creado todo")
+    load_clientes()
+    print("Clientes hechos")
+    load_equipos()
+    print("Equipos hechos")
+    load_partidos()
+    print("Partidos hechos")
+    load_cuotas()
+    print("Cuotas hechas")
     app.run(port=os.getenv("PORT"), debug=True)
