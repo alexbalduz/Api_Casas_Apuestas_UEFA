@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Rapid Viena ,0,1,Bayern Múnich
+Brujas ,1,2,Juventus
+Bayern,1,0,Brujas
+Juventus,3,0,Rapid Viena
+Rapid Viena ,0,1,Brujas
+Bayern,2,1,Juventus
+Brujas ,3,2,Rapid Viena
+Juventus,2,1,Bayern Múnich
+Bayern,4,0,Rapid Viena
+Juventus,1,0,Brujas
+Rapid Viena ,1,3,Juventus
+Brujas ,1,1,Bayern
+Sparta Praga ,1,1,Ajax Ámsterdam
+Arsenal ,2,1,Thun
+Ajax,1,2,Arsenal
+Thun ,1,0,Sparta Praga
+Sparta Praga ,0,2,Arsenal
+Ajax,2,0,Thun
+Arsenal ,3,0,Sparta Praga
+Thun ,2,4,Ajax Ámsterdam
+Ajax,2,1,Sparta Praga
+Thun ,0,1,Arsenal
+Sparta Praga ,0,0,Thun
+Arsenal ,0,0,Ajax Ámsterdam
+Udinese ,3,0,Panathinaikos
+Werder Bremen ,0,2,Barcelona
+Panathinaikos ,2,1,Werder Bremen
+Barcelona,4,1,Udinese Calcio
+Udinese Calcio ,1,1,Werder Bremen
+Panathinaikos ,0,0,Barcelona
+Werder Bremen ,4,3,Udinese
+Barcelona,5,0,Panathinaikos
+Panathinaikos ,1,2,Udinese
+Barcelona,3,1,Werder Bremen
+Udinese ,0,2,Barcelona
+Werder Bremen ,5,1,Panathinaikos
+Villarreal,0,0,Manchester United
+Benfica,1,0,Lille
+Man. United,2,1,Benfica
+LOSC,0,0,Villarreal
+Villarreal,1,1,Benfica
+Man. United,0,0,Lille
+Benfica,0,1,Villarreal
+LOSC,1,0,Manchester United
+Man. United,0,0,Villarreal
+LOSC,0,0,Benfica
+Villarreal,1,0,Lille
+Benfica,2,1,Manchester United
+Milan,3,1,Fenerbahçe
+PSV Eindhoven ,1,0,Schalke 04
+Fenerbahçe ,3,0,PSV Eindhoven
+Schalke 04 ,2,2,Milan
+Milan,0,0,PSV Eindhoven
+Fenerbahçe ,3,3,Schalke 04
+PSV Eindhoven ,1,0,Milan
+Schalke 04 ,2,0,Fenerbahçe
+Fenerbahçe ,0,4,Milan
+Schalke 04 ,3,0,PSV Eindhoven
+Milan,3,2,Schalke 04
+PSV Eindhoven ,2,0,Fenerbahçe
+Olympique de Lyon ,3,0,Real Madrid
+Olympiacos ,1,3,Rosenborg
+Real Madrid,2,1,Olympiacos
+Rosenborg ,0,1,Olympique de Lyon
+Olympique de Lyon ,2,1,Olympiacos
+Real Madrid,4,1,Rosenborg
+Olympiacos ,1,4,Olympique de Lyon
+Rosenborg ,0,2,Real Madrid
+Real Madrid,1,1,Olympique de Lyon
+Rosenborg ,1,1,Olympiacos
+Olympique de Lyon ,2,1,Rosenborg
+Olympiacos ,2,1,Real Madrid
+Chelsea,1,0,Anderlecht
+Real Betis ,1,2,Liverpool
+Anderlecht ,0,1,Real Betis
+Liverpool,0,0,Chelsea
+Chelsea,4,0,Real Betis
+Anderlecht ,0,1,Liverpool
+Real Betis ,1,0,Chelsea
+Liverpool,3,0,Anderlecht
+Anderlecht ,0,2,Chelsea
+Liverpool,0,0,Real Betis
+Chelsea,0,0,Liverpool
+Real Betis ,0,1,Anderlecht
+Rangers ,3,2,Porto
+Artmedia Bratislava ,0,1,Internazionale
+Porto,2,3,Artmedia Bratislava
+Internazionale,1,0,Rangers
+Rangers ,0,0,Artmedia Bratislava
+Porto,2,0,Internazionale
+Artmedia Bratislava ,2,2,Rangers
+Internazionale,2,1,Porto
+Porto,1,1,Rangers
+Internazionale,4,0,Artmedia Bratislava
+Rangers ,1,1,Internazionale
+Artmedia Bratislava ,0,0,Porto

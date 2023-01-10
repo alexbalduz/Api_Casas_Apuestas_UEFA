@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Atletico,2,0,Dortmund
+Atletico,2,0,association sportive de monaco football club
+Atletico,3,1,club brugge
+Dortmund,2,0,Atletico
+Dortmund,2,0,association sportive de monaco football club
+Dortmund,3,1,club brugge
+association sportive de monaco football club,2,0,Atletico
+association sportive de monaco football club,2,0,Dortmund
+association sportive de monaco football club,3,1,club brugge
+club brugge,2,0,Atletico
+club brugge,2,0,Dortmund
+club brugge,3,1,association sportive de monaco football club
+Barcelona,1,1,tottenham hotspur football club
+Barcelona,4,0,psv eindhoven
+Barcelona,2,0,Milan
+tottenham hotspur football club,1,1,Barcelona
+tottenham hotspur football club,4,0,psv eindhoven
+tottenham hotspur football club,2,0,Milan
+psv eindhoven,1,1,Barcelona
+psv eindhoven,4,0,tottenham hotspur football club
+psv eindhoven,2,0,Milan
+Milan,1,1,Barcelona
+Milan,4,0,tottenham hotspur football club
+Milan,2,0,psv eindhoven
+Paris,2,2,società sportiva calcio napoli
+Paris,2,1,Liverpool
+Paris,6,1,estrella roja de belgrado
+società sportiva calcio napoli,2,2,Paris
+società sportiva calcio napoli,2,1,Liverpool
+società sportiva calcio napoli,6,1,estrella roja de belgrado
+Liverpool,2,2,Paris
+Liverpool,2,1,società sportiva calcio napoli
+Liverpool,6,1,estrella roja de belgrado
+estrella roja de belgrado,2,2,Paris
+estrella roja de belgrado,2,1,società sportiva calcio napoli
+estrella roja de belgrado,6,1,Liverpool
+fc lokomotiv moscu,1,3,futbol club oporto
+fc lokomotiv moscu,0,1,fc schalke 04
+fc lokomotiv moscu,2,0,galatasaray spor kulubu futbol
+futbol club oporto,1,3,fc lokomotiv moscu
+futbol club oporto,0,1,fc schalke 04
+futbol club oporto,2,0,galatasaray spor kulubu futbol
+fc schalke 04,1,3,fc lokomotiv moscu
+fc schalke 04,0,1,futbol club oporto
+fc schalke 04,2,0,galatasaray spor kulubu futbol
+galatasaray spor kulubu futbol,1,3,fc lokomotiv moscu
+galatasaray spor kulubu futbol,0,1,futbol club oporto
+galatasaray spor kulubu futbol,2,0,fc schalke 04
+Bayern,5,1,Benfica
+Bayern,1,1,Ajax
+Bayern,2,0,aek atenas f.c.
+Benfica,5,1,Bayern
+Benfica,1,1,Ajax
+Benfica,2,0,aek atenas f.c.
+Ajax,5,1,Bayern
+Ajax,1,1,Benfica
+Ajax,2,0,aek atenas f.c.
+aek atenas f.c.,5,1,Bayern
+aek atenas f.c.,1,1,Benfica
+aek atenas f.c.,2,0,Ajax
+Man. City,6,0,Shakhtar Donetsk
+Man. City,1,2,olympique de lyon
+Man. City,2,1,tsg 1899 hoffenheim
+Shakhtar Donetsk,6,0,Man. City
+Shakhtar Donetsk,1,2,olympique de lyon
+Shakhtar Donetsk,2,1,tsg 1899 hoffenheim
+olympique de lyon,6,0,Man. City
+olympique de lyon,1,2,Shakhtar Donetsk
+olympique de lyon,2,1,tsg 1899 hoffenheim
+tsg 1899 hoffenheim,6,0,Man. City
+tsg 1899 hoffenheim,1,2,Shakhtar Donetsk
+tsg 1899 hoffenheim,2,1,olympique de lyon
+Real Madrid,3,0,associazione sportiva roma
+Real Madrid,0,3,pfc cska moscu
+Real Madrid,2,1,football club viktoria pilsen
+associazione sportiva roma,3,0,Real Madrid
+associazione sportiva roma,0,3,pfc cska moscu
+associazione sportiva roma,2,1,football club viktoria pilsen
+pfc cska moscu,3,0,Real Madrid
+pfc cska moscu,0,3,associazione sportiva roma
+pfc cska moscu,2,1,football club viktoria pilsen
+football club viktoria pilsen,3,0,Real Madrid
+football club viktoria pilsen,0,3,associazione sportiva roma
+football club viktoria pilsen,2,1,pfc cska moscu
+Juventus,1,2,Man. United
+Juventus,1,0,valencia club de futbol
+Juventus,3,0,Young Boys
+Man. United,1,2,Juventus
+Man. United,1,0,valencia club de futbol
+Man. United,3,0,Young Boys
+valencia club de futbol,1,2,Juventus
+valencia club de futbol,1,0,Man. United
+valencia club de futbol,3,0,Young Boys
+Young Boys,1,2,Juventus
+Young Boys,1,0,Man. United
+Young Boys,3,0,valencia club de futbol

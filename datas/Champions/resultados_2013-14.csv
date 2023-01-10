@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Man. United,4,2,Bayer Leverkusen
+Real Sociedad ,0,2,Shakhtar Donetsk
+Shakhtar Donetsk,1,1,Manchester United
+Bayer Leverkusen ,2,1,Real Sociedad
+Bayer Leverkusen ,4,0,Shakhtar Donetsk
+Man. United,1,0,Real Sociedad
+Shakhtar Donetsk,0,0,Bayer Leverkusen
+Real Sociedad ,0,0,Manchester United
+Bayer Leverkusen ,0,5,Manchester United
+Shakhtar Donetsk,4,0,Real Sociedad
+Man. United,1,0,Shakhtar Donetsk
+Real Sociedad ,0,1,Bayer Leverkusen
+Galatasaray ,1,6,Real Madrid
+Copenhague ,1,1,Juventus
+Juventus,2,2,Galatasaray
+Real Madrid,4,0,Copenhague
+Real Madrid,2,1,Juventus
+Galatasaray ,3,1,Copenhague
+Juventus,2,2,Real Madrid
+Copenhague ,1,0,Galatasaray
+Real Madrid,4,1,Galatasaray
+Juventus,3,1,Copenhague
+Galatasaray ,1,0,Juventus
+Copenhague ,0,2,Real Madrid
+Benfica,2,0,Anderlecht
+Olympiacos ,1,4,París Saint-Germain
+París Saint-Germain ,3,0,Benfica
+Anderlecht ,0,3,Olympiacos
+Anderlecht ,0,5,París Saint-Germain
+Benfica,1,1,Olympiacos
+París Saint-Germain ,1,1,Anderlecht
+Olympiacos ,1,0,Benfica
+Anderlecht ,2,3,Benfica
+París Saint-Germain ,2,1,Olympiacos
+Benfica,2,1,París Saint-Germain
+Olympiacos ,3,1,Anderlecht 
+Bayern,3,0,CSKA Moscú
+Viktoria Plzeň ,0,3,Manchester City
+Man. City,1,3,Bayern Múnich
+CSKA Moscú ,3,2,Viktoria Plzeň
+CSKA Moscú ,1,2,Manchester City
+Bayern,5,0,Viktoria Plzeň
+Man. City,5,2,CSKA Moscú
+Viktoria Plzeň ,0,1,Bayern Múnich
+CSKA Moscú ,1,3,Bayern Múnich
+Man. City,4,2,Viktoria Plzeň
+Bayern,2,3,Manchester City
+Viktoria Plzeň ,2,1,CSKA Moscú
+Schalke 04 ,3,0,Steaua București
+Chelsea,1,2,Basel
+Basel ,0,1,Schalke 04
+Steaua București ,0,4,Chelsea
+Steaua București ,1,1,Basel
+Schalke 04 ,0,3,Chelsea
+Basel ,1,1,Steaua București
+Chelsea,3,0,Schalke 04
+Steaua București ,0,0,Schalke 04
+Basel ,1,0,Chelsea
+Schalke 04 ,2,0,Basel
+Chelsea,1,0,Steaua București 
+Olympique de Marsella ,1,2,Arsenal
+Napoli ,2,1,Borussia Dortmund
+Dortmund,3,0,Olympique de Marsella
+Arsenal ,2,0,Napoli
+Arsenal ,1,2,Borussia Dortmund
+Olympique de Marsella ,1,2,Napoli
+Dortmund,0,1,Arsenal
+Napoli ,3,2,Olympique de Marsella
+Arsenal ,2,0,Olympique de Marsella
+Dortmund,3,1,Napoli
+Olympique de Marsella ,1,2,Borussia Dortmund
+Napoli ,2,0,Arsenal 
+Austria Viena ,0,1,Porto
+Atlético de Madrid ,3,1,Zenit San Petersburgo
+Zenit,0,0,Austria Viena
+Porto,1,2,Atlético de Madrid
+Porto,0,1,Zenit San Petersburgo
+Austria Viena ,0,3,Atlético de Madrid
+Zenit,1,1,Porto
+Atlético de Madrid ,4,0,Austria Viena
+Porto,1,1,Austria Viena
+Zenit,1,1,Atlético de Madrid
+Austria Viena ,4,1,Zenit San Petersburgo
+Atlético de Madrid ,2,0,Porto
+Milan,2,0,Celtic
+Barcelona,4,0,Ajax
+Ajax,1,1,Milan
+Celtic ,0,1,Barcelona
+Celtic ,2,1,Ajax
+Milan,1,1,Barcelona
+Ajax,1,0,Celtic
+Barcelona,3,1,Milan
+Celtic ,0,3,Milan
+Ajax,2,1,Barcelona
+Milan,0,0,Ajax
+Barcelona,6,1,Celtic 

@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Paris,3,0,Real Madrid
+Paris,1,0,club brujas
+Paris,5,0,galatasaray spor kulubu futbol
+Real Madrid,3,0,Paris
+Real Madrid,1,0,club brujas
+Real Madrid,5,0,galatasaray spor kulubu futbol
+club brujas,3,0,Paris
+club brujas,1,0,Real Madrid
+club brujas,5,0,galatasaray spor kulubu futbol
+galatasaray spor kulubu futbol,3,0,Paris
+galatasaray spor kulubu futbol,1,0,Real Madrid
+galatasaray spor kulubu futbol,5,0,club brujas
+Bayern,3,1,tottenham hotspur football club
+Bayern,2,0,olympiakos de el pireo
+Bayern,3,0,estrella roja de belgrado
+tottenham hotspur football club,3,1,Bayern
+tottenham hotspur football club,2,0,olympiakos de el pireo
+tottenham hotspur football club,3,0,estrella roja de belgrado
+olympiakos de el pireo,3,1,Bayern
+olympiakos de el pireo,2,0,tottenham hotspur football club
+olympiakos de el pireo,3,0,estrella roja de belgrado
+estrella roja de belgrado,3,1,Bayern
+estrella roja de belgrado,2,0,tottenham hotspur football club
+estrella roja de belgrado,3,0,olympiakos de el pireo
+Man. City,5,1,Atalanta
+Man. City,1,1,Shakhtar Donetsk
+Man. City,2,0,građanski nogometni klub dinamo zagreb
+Atalanta,5,1,Man. City
+Atalanta,1,1,Shakhtar Donetsk
+Atalanta,2,0,građanski nogometni klub dinamo zagreb
+Shakhtar Donetsk,5,1,Man. City
+Shakhtar Donetsk,1,1,Atalanta
+Shakhtar Donetsk,2,0,građanski nogometni klub dinamo zagreb
+građanski nogometni klub dinamo zagreb,5,1,Man. City
+građanski nogometni klub dinamo zagreb,1,1,Atalanta
+građanski nogometni klub dinamo zagreb,2,0,Shakhtar Donetsk
+Juventus,1,0,Atletico
+Juventus,3,0,bayer 04 leverkusen
+Juventus,2,1,fc lokomotiv moscu
+Atletico,1,0,Juventus
+Atletico,3,0,bayer 04 leverkusen
+Atletico,2,1,fc lokomotiv moscu
+bayer 04 leverkusen,1,0,Juventus
+bayer 04 leverkusen,3,0,Atletico
+bayer 04 leverkusen,2,1,fc lokomotiv moscu
+fc lokomotiv moscu,1,0,Juventus
+fc lokomotiv moscu,3,0,Atletico
+fc lokomotiv moscu,2,1,bayer 04 leverkusen
+Liverpool,1,1,società sportiva calcio napoli
+Liverpool,4,3,red bull salzburgo
+Liverpool,2,1,krc genk
+società sportiva calcio napoli,1,1,Liverpool
+società sportiva calcio napoli,4,3,red bull salzburgo
+società sportiva calcio napoli,2,1,krc genk
+red bull salzburgo,1,1,Liverpool
+red bull salzburgo,4,3,società sportiva calcio napoli
+red bull salzburgo,2,1,krc genk
+krc genk,1,1,Liverpool
+krc genk,4,3,società sportiva calcio napoli
+krc genk,2,1,red bull salzburgo
+Barcelona,3,1,Dortmund
+Barcelona,2,1,Milan
+Barcelona,0,0,sportovni klub slavia praga
+Dortmund,3,1,Barcelona
+Dortmund,2,1,Milan
+Dortmund,0,0,sportovni klub slavia praga
+Milan,3,1,Barcelona
+Milan,2,1,Dortmund
+Milan,0,0,sportovni klub slavia praga
+sportovni klub slavia praga,3,1,Barcelona
+sportovni klub slavia praga,2,1,Dortmund
+sportovni klub slavia praga,0,0,Milan
+Leipzig,0,2,olympique lyon
+Leipzig,2,2,Benfica
+Leipzig,2,1,Zenit
+olympique lyon,0,2,Leipzig
+olympique lyon,2,2,Benfica
+olympique lyon,2,1,Zenit
+Benfica,0,2,Leipzig
+Benfica,2,2,olympique lyon
+Benfica,2,1,Zenit
+Zenit,0,2,Leipzig
+Zenit,2,2,olympique lyon
+Zenit,2,1,Benfica
+valencia club de futbol,2,2,Chelsea
+valencia club de futbol,0,3,Ajax
+valencia club de futbol,4,1,LOSC
+Chelsea,2,2,valencia club de futbol
+Chelsea,0,3,Ajax
+Chelsea,4,1,LOSC
+Ajax,2,2,valencia club de futbol
+Ajax,0,3,Chelsea
+Ajax,4,1,LOSC
+LOSC,2,2,valencia club de futbol
+LOSC,0,3,Chelsea
+LOSC,4,1,Ajax

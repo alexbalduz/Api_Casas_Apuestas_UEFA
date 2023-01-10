@@ -1,0 +1,145 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Spartak Moscú ,2,0,Bayer Leverkusen 
+Sporting CP,2,2,Real Madrid
+Bayer Leverkusen ,3,2,Sporting CP
+Real Madrid,1,0,Spartak Moscú 
+Spartak Moscú ,3,1,Sporting CP
+Bayer Leverkusen ,2,3,Real Madrid
+Sporting CP,0,3,Spartak Moscú 
+Real Madrid,5,3,Bayer Leverkusen 
+Bayer Leverkusen ,1,0,Spartak Moscú 
+Real Madrid,4,0,Sporting CP
+Spartak Moscú ,1,0,Real Madrid
+Sporting CP,0,0,Bayer Leverkusen 
+Sparta Praha ,0,1,Arsenal 
+Shakhtar Donetsk,0,3,Lazio 
+Arsenal ,3,2,Shakhtar Donetsk
+Lazio ,3,0,Sparta Praha 
+Sparta Praha ,3,2,Shakhtar Donetsk
+Arsenal ,2,0,Lazio 
+Shakhtar Donetsk,2,1,Sparta Praha 
+Lazio ,1,1,Arsenal 
+Arsenal ,4,2,Sparta Praha 
+Lazio ,5,1,Shakhtar Donetsk
+Sparta Praha ,0,1,Lazio 
+Shakhtar Donetsk,3,0,Arsenal 
+Valencia ,2,1,Olympiacos 
+Olympique de Lyon ,3,1,Heerenveen 
+Olympiakos ,2,1,Olympique Lyon 
+Heerenveen ,0,1,Valencia 
+Valencia ,1,0,Olympique de Lyon 
+Olympiacos ,2,0,Heerenveen 
+Olympique de Lyon ,1,2,Valencia 
+Heerenveen ,1,0,Olympiacos 
+Olympiacos ,1,0,Valencia 
+Heerenveen ,0,2,Olympique de Lyon 
+Valencia ,1,1,Heerenveen 
+Olympique de Lyon ,1,0,Olympiacos 
+Galatasaray ,3,2,Mónaco 
+Rangers ,5,0,Sturm Graz 
+Mónaco ,0,1,Rangers 
+Sturm Graz ,3,0,Galatasaray 
+Galatasaray ,3,2,Rangers 
+Mónaco ,5,0,Sturm Graz 
+Rangers ,0,0,Galatasaray 
+Sturm Graz ,2,0,Mónaco 
+Mónaco ,4,2,Galatasaray 
+Sturm Graz ,2,0,Rangers 
+Galatasaray ,2,2,Sturm Graz 
+Rangers ,2,2,Mónaco 
+Hamburgo ,4,4,Juventus
+Panathinaikos ,1,1,Dep. de La Coruña 
+Juventus,2,1,Panathinaikos 
+Dep. de La Coruña ,2,1,Hamburgo 
+Hamburgo ,0,1,Panathinaikos 
+Juventus,0,0,Dep. de La Coruña 
+Panathinaikos ,0,0,Hamburgo 
+Dep. de La Coruña ,1,1,Juventus
+Juventus,1,3,Hamburgo 
+Dep. de La Coruña ,1,0,Panathinaikos 
+Hamburgo ,1,1,Dep. de La Coruña 
+Panathinaikos ,3,1,Juventus
+Rosenborg ,3,1,París Saint-Germain 
+Helsingborgs ,1,3,Bayern
+París Saint-Germain ,4,1,Helsingborgs 
+Bayern,3,1,Rosenborg 
+Rosenborg ,6,1,Helsingborgs 
+París Saint-Germain ,1,0,Bayern
+Helsingborgs ,2,0,Rosenborg 
+Bayern,2,0,París Saint-Germain 
+París Saint-Germain ,7,2,Rosenborg 
+Bayern,0,0,Helsingborgs 
+Rosenborg ,1,1,Bayern
+Helsingborgs ,1,1,París Saint-Germain 
+PSV Eindhoven ,2,1,Dinamo Kiev 
+Man. United,5,1,Anderlecht 
+Dinamo Kiev ,0,0,Man. United
+Anderlecht ,1,0,PSV Eindhoven 
+PSV Eindhoven ,3,1,Man. United
+Dinamo Kiev ,4,0,Anderlecht 
+Man. United,3,1,PSV Eindhoven 
+Anderlecht ,4,2,Dinamo Kiev 
+Dinamo Kiev ,0,1,PSV Eindhoven 
+Anderlecht ,2,1,Man. United
+PSV Eindhoven ,2,3,Anderlecht 
+Man. United,1,0,Dinamo Kiev 
+Barcelona,4,0,Leeds United 
+Milan,4,1,Beşiktaş 
+Leeds United ,1,0,Milan
+Beşiktaş ,3,0,Barcelona
+Barcelona,0,2,Milan
+Leeds United ,6,0,Beşiktaş 
+Milan,3,3,Barcelona
+Beşiktaş ,0,0,Leeds United 
+Leeds United ,1,1,Barcelona
+Beşiktaş ,0,2,Milan
+Barcelona,5,0,Beşiktaş 
+Milan,1,1,Leeds United 
+Valencia ,2,0,Sturm Graz 
+Man. United,3,1,Panathinaikos 
+Sturm Graz ,0,2,Man. United
+Panathinaikos ,0,0,Valencia 
+Valencia ,0,0,Man. United
+Sturm Graz ,2,0,Panathinaikos 
+Man. United,1,1,Valencia 
+Panathinaikos ,1,2,Sturm Graz 
+Sturm Graz ,0,5,Valencia 
+Panathinaikos ,1,1,Man. United
+Valencia ,2,1,Panathinaikos 
+Man. United,3,0,Sturm Graz 
+Milan,2,2,Galatasaray 
+París Saint-Germain ,1,3,Deportivo de La Coruña 
+Galatasaray ,1,0,París Saint-Germain 
+Deportivo de La Coruña ,0,1,Milan
+Milan,1,1,París Saint-Germain 
+Galatasaray ,1,0,Deportivo de La Coruña 
+París Saint-Germain ,1,1,Milan
+Deportivo de La Coruña ,2,0,Galatasaray 
+Galatasaray ,2,0,Milan
+Deportivo de La Coruña ,4,3,París Saint-Germain 
+Milan,1,1,Deportivo de La Coruña 
+París Saint-Germain ,2,0,Galatasaray 
+Bayern,1,0,Olympique de Lyon 
+Spartak Moscú ,4,1,Arsenal 
+Olympique de Lyon ,3,0,Spartak Moscú 
+Arsenal ,2,2,Bayern
+Bayern,1,0,Spartak Moscú 
+Olympique de Lyon ,0,1,Arsenal 
+Spartak Moscú ,0,3,Bayern
+Arsenal ,1,1,Olympique de Lyon 
+Olympique de Lyon ,3,0,Bayern
+Arsenal ,1,0,Spartak Moscú 
+Bayern,1,0,Arsenal 
+Spartak Moscú ,1,1,Olympique de Lyon 
+Leeds United ,0,2,Real Madrid
+Anderlecht ,1,0,Lazio 
+Real Madrid,4,1,Anderlecht 
+Lazio ,0,1,Leeds United 
+Leeds United ,2,1,Anderlecht 
+Real Madrid,3,2,Lazio 
+Anderlecht ,1,4,Leeds United 
+Lazio ,2,2,Real Madrid
+Real Madrid,3,2,Leeds United 
+Lazio ,2,1,Anderlecht 
+Leeds United ,3,3,Lazio 
+Anderlecht ,2,0,Real Madrid
