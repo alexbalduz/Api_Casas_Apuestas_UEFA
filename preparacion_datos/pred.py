@@ -17,7 +17,7 @@ equipos=list(equipos)
 
 #Leemos los datos de la Champions
 for año in años:
-    Champions[f'{año}'] = pd.read_csv(f'datas/Champions/resultados{año}.csv')
+    Champions[f'{año}'] = pd.read_csv(f'datas/Champions/resultados_{año}.csv')
 
 #Diccionarios para guardar los goles de cada equipo
 golesLocal = {}
@@ -32,9 +32,11 @@ for equipo in equipos:
 for año in años:
     for i in range(len(Champions[año])):
         if str(Champions[año].iloc[i]['Local']) in equipos:
-            golesLocal[Champions[año].iloc[i]['Local']]+=int(Champions[año].iloc[i]['GolesLocal'])
+            #Contamos los goles locales, para ello casteamos
+            golesLocal[Champions[año].iloc[i]['Local']] += int(Champions[año].iloc[i]['GolesLocal'])
         if Champions[año].iloc[i]['Visitante'] in equipos:
-            golesVisitante[Champions[año].iloc[i]['Visitante']]+=int(Champions[año].iloc[i]['GolesVisitante'])
+            #Contamos los goles locales, para ello casteamos
+            golesVisitante[Champions[año].iloc[i]['Visitante']] += int(Champions[año].iloc[i]['GolesVisitante'])
     print(f'año {año} terminado')
 
 print(golesLocal)
