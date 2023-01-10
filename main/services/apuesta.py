@@ -1,5 +1,5 @@
 from main.map import ApuestaSchema
-from main.repositories.repositorioapuesta import ApuestaRepositorio 
+from main.repositories.repositorioapuesta import ApuestaRepositorio
 from main.repositories.repositoriocuota import CuotaRepositorio
 from abc import ABC
 
@@ -49,7 +49,7 @@ class CuotaLocal(CuotaStrategy):
 class CuotaVisitante(CuotaStrategy):
     def calcular_cuota(self, cuota):
         probabilidad = cuota.cuota_visitante
-        return probabilidad
+        return probabilidad 
 
 class CuotaEmpate(CuotaStrategy):
     def calcular_cuota(self, cuota):

@@ -23,14 +23,14 @@ class CuotaService:
         partido = partido_service.obtener_partido_por_id(cuota.partido_id)
         visitante = equipo_service.obtener_equipo_por_id(partido.equipo_visitante_id)
         local = equipo_service.obtener_equipo_por_id(partido.equipo_local_id)
-        
+
         cuota.cuota_local = self.calcular_cuota(local.puntaje)
         cuota.cuota_visitante = self.calcular_cuota(visitante.puntaje)
         cuota.cuota_empate = self.calcular_cuota(self.calcular_empate(local.puntaje, visitante.puntaje))
 
     def calcular_base(self):
         return equipo_service.obtener_puntaje_mas_alto()
-    
+
     def calcular_probabilidad(self, puntos):
         return puntos/self.calcular_base()
 
@@ -41,9 +41,3 @@ class CuotaService:
         cuota_calculada = cos(self.calcular_probabilidad(puntos))
         cuota_calculada = (cuota_calculada * 10) - 4
         return round(cuota_calculada, 2)
-
-
-
-
-        
-
