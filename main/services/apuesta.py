@@ -49,26 +49,37 @@ class CuotaStrategy(ABC):
     def calcular_cuota(self, local, visitante, cuota):
         """Calcular probabilidad"""
         if local in self.df_golesLocal.index and visitante in self.df_golesLocal.index:
-            cuota_local = self.df_golesLocal.at[local, 'GolesLocal'] * self.df_golesLocal.at[visitante, 'GolesVisitante']
-            cuota_visitante = self.df_golesLocal.at[visitante, 'GolesVisitante'] * self.df_golesLocal.at[local, 'GolesLocal']
+            cuotaLocal = self.df_golesLocal.at[local, 'GolesLocal'] * self.df_golesLocal.at[visitante, 'GolesVisitante']
+            cuotaVisitante = self.df_golesLocal.at[visitante, 'GolesVisitante'] * self.df_golesLocal.at[local, 'GolesLocal']
+            #Definimos las probabilidades
             probabilidad_empate, probabilidad_local, probabilidad_visitante = 0, 0, 0
-            for x in range(0, 11): # Numero de goles del equipo local
-                for y in range(0, 11): #Numero de goles del equipo visitante
-                    p = poisson.pmf(x, cuota_local) * poisson.pmf(y, cuota_visitante)
-                    if x == y:
-                        probabilidad_empate += p
-                    elif x>y:
-                        probabilidad_local += p
+            # Numero de goles del equipo local
+            for i in range(0, 11):
+                #Numero de goles del equipo visitante
+                for j in range(0, 11):
+                    #Utilizamos la distribucion de Poisson para calcular la probabilidad de que ocurran i goles para el equipo local y j goles para el equipo visitante
+                    #utilizamos como mu las respectivas cuotas
+                    probabilidad_poisson = poisson.pmf(i, cuotaLocal) * poisson.pmf(j, cuotaVisitante)
+                    #Si la probabilidad es la misma entonces están empatados
+                    if i == j:
+                        probabilidad_empate += probabilidad_poisson
+                    #Si la probabilidad de la primera es mayor que la segunda entonces el equipo local gana
+                    elif i > j:
+                        probabilidad_local += probabilidad_poisson
+                    #Si la probabilidad de la segunda es mayor que la primera entonces el equipo visitante gana
                     else:
-                        probabilidad_visitante += p
+                        probabilidad_visitante += probabilidad_poisson
 
-            puntos_local = 3*probabilidad_local + probabilidad_empate
-            puntos_visitante = 3*probabilidad_visitante + probabilidad_empate
-            probabilidad_local = round(puntos_local/(puntos_local + puntos_visitante), 2)
-            probabilidad_visitante = round(puntos_visitante/(puntos_local + puntos_visitante), 2)
+            #Calculamos los puntos ganados por cada equipo(Local y Visitante)
+            #Tenemos en cuenta que siempre se puntua cuando ganas(3 ptos) y cuando empatas(1 pto)
+            puntosGanadosLocal = 3*probabilidad_local + probabilidad_empate
+            puntosGanadosVisitante = 3*probabilidad_visitante + probabilidad_empate
+            #Calculamos las probabilidades de que gane cada equipo, rendondeamos a 2 decimales
+            probabilidad_local = round(puntosGanadosLocal/(puntosGanadosLocal + puntosGanadosVisitante), 2)
+            probabilidad_visitante = round(puntosGanadosVisitante/(puntosGanadosLocal + puntosGanadosVisitante), 2)
+            #La probabilidad de empate sera la diferencia entre 1 y la suma de las probabilidades de ganar tambien redondeando
             probabilidad_empate = round(1 - probabilidad_local - probabilidad_visitante, 2)
-            return (puntos_local, puntos_visitante)
-
+            return (puntosGanadosLocal, puntosGanadosVisitante)
         else:
             return (0, 0)
 
