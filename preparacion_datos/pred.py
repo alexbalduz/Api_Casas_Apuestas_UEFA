@@ -34,22 +34,29 @@ class Prediccion():
             self.golesLocal[equipo] = 0
             self.golesVisitante[equipo] = 0
 
+        #Recoremos todos los años
         for año in self.años:
+            #Recoremos todos los partidos de la temporada
             for i in range(len(self.Champions[año])):
+                #Se mete en la temporada de la champions, en la fila del fichero,
+                # escogiendo solo la información de la columna Visitante. Si este equipo está en nuestra información
+                # de equipos:
                 if str(self.Champions[año].iloc[i]['Local']) in self.equipos:
+                    #Se le suma a la temporada de la champions, en la fila del fichero, los goles del equipo local
                     self.golesLocal[self.Champions[año].iloc[i]['Local']] += int(self.Champions[año].iloc[i]['GolesLocal'])
+                #Se realiza lo mismo pero con el equipo visitante
                 if self.Champions[año].iloc[i]['Visitante'] in self.equipos:
                     self.golesVisitante[self.Champions[año].iloc[i]['Visitante']] += int(self.Champions[año].iloc[i]['GolesVisitante'])
             print(f'año {año} terminado')
 
-        #print(self.golesLocal)
-
-
+    #Sacamos los ficheros con los goles contabilizados.
     def convertirGolesChampions(self):
+        #Utilizamos los datos anteriores para obtener los csv con los goles como Local y como Visitante
         df_golesLocal = pd.DataFrame([[key, self.golesLocal[key]] for key in self.golesLocal.keys()], columns = ['EquipoLocal', 'golesLocal'])
         df_golesLocal.to_csv(f'preparacion_datos/golesLocal.csv', index=False)
         df_golesVisitante = pd.DataFrame([[key, self.golesVisitante[key]] for key in self.golesVisitante.keys()], columns = ['EquipoVisitante', 'golesVisitante'])
         df_golesVisitante.to_csv(f'preparacion_datos/golesVistante.csv', index=False)
+        #Unimos los dos csv anteriores en uno solo para obtener el conjunto de goles de cada equipo en la champions
         df_total = pd.concat([df_golesLocal, df_golesVisitante], axis=1)
         df_total.to_csv(f'preparacion_datos/golesChampions.csv', index=False)
 
