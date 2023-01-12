@@ -1,6 +1,7 @@
 import pandas as pd
 from normalizacion import NormalizacionNombres
 
+#La intencion de este archivo es crear un modelo de predicción de goles con los datos ya normalizados
 class Prediccion():
 
     def __init__(self):
