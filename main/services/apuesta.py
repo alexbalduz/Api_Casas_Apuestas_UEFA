@@ -48,17 +48,23 @@ class ApuestaService:
 class CuotaStrategy(ABC):
     def calcular_cuota(self, local, visitante, cuota):
         """Calcular probabilidad"""
+        #Vemos si el equipo está considerado en el modelo
         if local in self.df_golesLocal.index and visitante in self.df_golesLocal.index:
+            #Utilizamos at para saber el número exacto de goles que tiene el equipo local que se pasa por parámetro
             cuotaLocal = self.df_golesLocal.at[local, 'GolesLocal'] * self.df_golesLocal.at[visitante, 'GolesVisitante']
+            #at para saber el número exacto de goles que tiene el equipo visitante que se pasa por parámetro
             cuotaVisitante = self.df_golesLocal.at[visitante, 'GolesVisitante'] * self.df_golesLocal.at[local, 'GolesLocal']
-            #Definimos las probabilidades
+            #Definimos las probabilidades e inicializamos
             probabilidad_empate, probabilidad_local, probabilidad_visitante = 0, 0, 0
-            # Numero de goles del equipo local
+            #Numero de goles del equipo local
             for i in range(0, 11):
                 #Numero de goles del equipo visitante
                 for j in range(0, 11):
+                    #Supongamos que no se marcan mas de 10 goles en un partido
                     #Utilizamos la distribucion de Poisson para calcular la probabilidad de que ocurran i goles para el equipo local y j goles para el equipo visitante
                     #utilizamos como mu las respectivas cuotas
+                    #Usamos Poisson porque mide la probabilidad de que un evento ocurra bajo un parametro, el tiempo
+                    #En este caso medimos las probabilidades de variables discretas
                     probabilidad_poisson = poisson.pmf(i, cuotaLocal) * poisson.pmf(j, cuotaVisitante)
                     #Si la probabilidad es la misma entonces están empatados
                     if i == j:
@@ -74,10 +80,11 @@ class CuotaStrategy(ABC):
             #Tenemos en cuenta que siempre se puntua cuando ganas(3 ptos) y cuando empatas(1 pto)
             puntosGanadosLocal = 3*probabilidad_local + probabilidad_empate
             puntosGanadosVisitante = 3*probabilidad_visitante + probabilidad_empate
-            #Calculamos las probabilidades de que gane cada equipo, rendondeamos a 2 decimales
+            #Calculamos las probabilidades de que gane cada equip(Local o Visitante), rendondeamos a 2 decimales
             probabilidad_local = round(puntosGanadosLocal/(puntosGanadosLocal + puntosGanadosVisitante), 2)
             probabilidad_visitante = round(puntosGanadosVisitante/(puntosGanadosLocal + puntosGanadosVisitante), 2)
             #La probabilidad de empate sera la diferencia entre 1 y la suma de las probabilidades de ganar tambien redondeando
+            #Esto es asi puesto que si a un suceso seguro le quitas las dos probabilidades de ganar independientes, el resultado es la probabilidad de empate(los dos ganar ptos)
             probabilidad_empate = round(1 - probabilidad_local - probabilidad_visitante, 2)
             return (puntosGanadosLocal, puntosGanadosVisitante)
         else:
